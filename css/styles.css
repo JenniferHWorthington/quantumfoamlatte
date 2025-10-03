@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #0b0c10, #1f2833);
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0b0c20, #1f2833);
   color: #c5c6c7;
   display: flex;
   justify-content: center;
@@ -16,8 +16,9 @@ img {
 }
 
 h1 {
+  font-family: 'Orbitron', sans-serif;
   font-size: 3rem;
-  color: #66fcf1;
+  color: #A64DFF;
 }
 p {
   font-size: 1.2rem;
