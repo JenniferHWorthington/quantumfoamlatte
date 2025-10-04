@@ -109,7 +109,22 @@ And **Quantum Mint** drifts at the edges, a breath of renewal — the cool promi
 Together, these colors are a map of what this space is trying to be:  
 grounded yet luminous, digital yet human, dark enough to feel safe and bright enough to stay curious.  
 They are the emotional architecture of **Quantum Foam Latte** — the quiet glow of understanding, alive inside the void.
-  
+
+### 🌒 The Supporting Shades
+
+Beyond the core palette, a few quieter tones hold the structure together — the gravity between the stars.
+
+**Graviton Mist** anchors the space, a deep gradient where shadow starts to breathe.  
+It’s the subtle motion beneath stillness, giving depth without demanding attention.  
+
+**Starlight Cream** carries warmth into the dark — a soft echo of comfort against the void, bright enough to be read, gentle enough to feel human.  
+It’s the light of comprehension, the glow that makes reflection possible.  
+
+**Echo Grey** lingers at the edges — balanced, thoughtful, and unhurried.  
+It reminds us that not every truth needs to shout to be heard.
+
+Together, these tones form the atmosphere that everything else breathes in.  
+They’re the silence between colors — the backdrop of meaning, the pause that lets the light speak.
 
 **Tools:**  
 [Coolors](https://coolors.co) · [Color Hunt](https://colorhunt.co)

@@ -3,14 +3,17 @@
   --cosmic-lavender: #A64DFF;
   --event-horizon: #0B0C20;
   --quantum-mint: #66FCF1;
+  --graviton-mist: #1F2833;
+  --starlight-cream: #F5F1E9;
+  --echo-grey: #B8C2CC;
 
   --qfl-bg-dark: var(--event-horizon);       /* Deep background */
-  --qfl-bg-gradient: #1F2833;   /* Background gradient */
+  --qfl-bg-gradient: var(--graviton-mist);   /* Background gradient */
   --qfl-primary: var(--neon-tide);       /* Main brand cyan */
   --qfl-accent: var(--cosmic-lavender);        /* Pop color / emphasis */
   --qfl-highlight: var(--quantum-mint);     /* Soft highlight or hover */
-  --qfl-text-light: #F5F1E9;    /* From your old Cream tone */
-  --qfl-text-muted: #B8C2CC;    /* Optional: secondary text */
+  --qfl-text-light: var(--starlight-cream);    /* From your old Cream tone */
+  --qfl-text-muted: var(--echo-grey);    /* Optional: secondary text */
 }
 
 body {
