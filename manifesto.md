@@ -91,6 +91,9 @@ It’s a place where *“I don’t have it all figured out”* feels like an inv
 - Cosmic Lavendar `#A64DFF`  
 - Event Horizon `#0B0C20`  
 - Quantum Mint `#66FCF1`
+- Graviton Mist `#1F2833`
+- Starlight Cream `#F5F1E9`
+- Echo Grey `#B8C2CC`
 
 ## 🎨 The Palette
 

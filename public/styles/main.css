@@ -1,9 +1,14 @@
 :root {
-  --qfl-bg-dark: #0B0C20;       /* Deep background */
+  --neon-tide: #00E6E6;
+  --cosmic-lavender: #A64DFF;
+  --event-horizon: #0B0C20;
+  --quantum-mint: #66FCF1;
+
+  --qfl-bg-dark: var(--event-horizon);       /* Deep background */
   --qfl-bg-gradient: #1F2833;   /* Background gradient */
-  --qfl-primary: #00E6E6;       /* Main brand cyan */
-  --qfl-accent: #A64DFF;        /* Pop color / emphasis */
-  --qfl-highlight: #66FCF1;     /* Soft highlight or hover */
+  --qfl-primary: var(--neon-tide);       /* Main brand cyan */
+  --qfl-accent: var(--cosmic-lavender);        /* Pop color / emphasis */
+  --qfl-highlight: var(--quantum-mint);     /* Soft highlight or hover */
   --qfl-text-light: #F5F1E9;    /* From your old Cream tone */
   --qfl-text-muted: #B8C2CC;    /* Optional: secondary text */
 }
