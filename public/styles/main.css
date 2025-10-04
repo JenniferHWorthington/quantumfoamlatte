@@ -1,8 +1,18 @@
+:root {
+  --qfl-bg-dark: #0B0C20;       /* Deep background */
+  --qfl-bg-gradient: #1F2833;   /* Background gradient */
+  --qfl-primary: #00E6E6;       /* Main brand cyan */
+  --qfl-accent: #A64DFF;        /* Pop color / emphasis */
+  --qfl-highlight: #66FCF1;     /* Soft highlight or hover */
+  --qfl-text-light: #F5F1E9;    /* From your old Cream tone */
+  --qfl-text-muted: #B8C2CC;    /* Optional: secondary text */
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(135deg, #0b0c20, #1f2833);
-  color: #c5c6c7;
+  background: linear-gradient(135deg, var(--qfl-bg-dark), var(--qfl-bg-gradient));
+  color: var(--qfl-text-light);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +28,7 @@ img {
 h1 {
   font-family: 'Orbitron', sans-serif;
   font-size: 3rem;
-  color: #a64dff;
+  color: var(--qfl-accent);
 }
 p {
   font-size: 1.2rem;
@@ -28,13 +38,13 @@ p {
   display: inline-block;
   margin-top: 2rem;
   padding: 0.8rem 1.5rem;
-  border: 2px solid #66fcf1;
+  border: 2px solid var(--qfl-highlight);
   border-radius: 8px;
-  color: #66fcf1;
+  color: var(--qfl-highlight);
   text-decoration: none;
   transition: background 0.3s, color 0.3s;
 }
 .btn:hover {
-  background: #66fcf1;
-  color: #0b0c10;
+  background: var(--qfl-highlight);
+  color: var(--qfl-bg-dark);
 }
