@@ -87,16 +87,26 @@ It’s a place where *“I don’t have it all figured out”* feels like an inv
 ### 🎨 Color Philosophy
 
 **Primary Palette:**  
-- Deep Espresso `#3B2F2F`  
-- Cream White `#F5F1E9`  
-- Cosmic Blue `#1D2D50`  
-- Accent Gold `#F0C987`
+- Neon Tide `#00E6E6`  
+- Cosmic Lavendar `#A64DFF`  
+- Event Horizon `#0B0C20`  
+- Quantum Mint `#66FCF1`
 
-**Meaning:** Warmth meets depth; comfort meets infinite curiosity.  
-**Usage:**  
-- Warm neutrals for backgrounds.  
-- Blues and golds for highlights, buttons, and accents.  
-- Muted gradients to mimic cosmic light without overwhelming the eyes.  
+## 🎨 The Palette
+
+Color is more than decoration here — it’s language.  
+Every hue in **Quantum Foam Latte** speaks to the space between chaos and calm, to the way light bends around experience and meaning.  
+
+The palette lives where stillness meets electricity.  
+**Event Horizon** holds the weight — a deep indigo that feels like night, like the mind before thought. It’s the gravity that lets everything else shimmer.  
+From that quiet, **Neon Tide** rises — a pulse of cyan curiosity, the hum of awareness waking up.  
+**Cosmic Lavender** arcs through it all, soft and strange, carrying imagination across the boundaries of logic and feeling.  
+And **Quantum Mint** drifts at the edges, a breath of renewal — the cool promise that healing is motion, not perfection.  
+
+Together, these colors are a map of what this space is trying to be:  
+grounded yet luminous, digital yet human, dark enough to feel safe and bright enough to stay curious.  
+They are the emotional architecture of **Quantum Foam Latte** — the quiet glow of understanding, alive inside the void.
+  
 
 **Tools:**  
 [Coolors](https://coolors.co) · [Color Hunt](https://colorhunt.co)
