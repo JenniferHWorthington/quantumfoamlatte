@@ -105,8 +105,8 @@ It’s a place where *“I don’t have it all figured out”* feels like an inv
 
 ### ✍️ Typography Guide
 
-**Primary Font:** Inter or Raleway (clean, legible, modern)  
-**Accent Font:** Merriweather or Playfair Display (warm, human, literary)
+**Primary Font:** Inter (clean, legible, modern)  
+**Accent Font:** Orbitron (futuristic, geometric, bold)
 
 **Usage:**  
 - Sans-serif for body text and UI.  

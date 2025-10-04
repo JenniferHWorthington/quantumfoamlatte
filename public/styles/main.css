@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0b0c20, #1f2833);
+  color: #c5c6c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  color: #a64dff;
+}
+p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #66fcf1;
+  border-radius: 8px;
+  color: #66fcf1;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+.btn:hover {
+  background: #66fcf1;
+  color: #0b0c10;
+}
