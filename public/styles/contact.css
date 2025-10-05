@@ -65,13 +65,19 @@
   margin: 0.5rem 0;
 }
 
-.qfl-contact-card ul a {
+.qfl-contact-card a {
   color: var(--quantum-mint);
   text-decoration: none;
 }
 
-.qfl-contact-card ul a:hover {
+.qfl-contact-card a:hover {
   color: var(--cosmic-lavender);
+}
+
+.qfl-social-icon {
+  height: 2rem;
+  width: auto;
+  fill: currentColor;
 }
 
 .qfl-contact-quote blockquote {
