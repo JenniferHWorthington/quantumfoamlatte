@@ -34,10 +34,124 @@ body {
   background: linear-gradient(135deg, var(--qfl-bg-dark), var(--qfl-bg-gradient));
   color: var(--qfl-text-light);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   text-align: center;
+}
+
+.qfl-header {
+  background: linear-gradient(
+    135deg,
+    var(--event-horizon) 0%,
+    var(--graviton-mist) 100%
+  );
+  color: var(--starlight-cream);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--cosmic-lavender);
+  box-shadow: 0 0 10px var(--cosmic-lavender);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.qfl-brand h1 {
+  color: var(--quantum-mint);
+  font-family: 'Orbitron', sans-serif; /* or your chosen accent font */
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.qfl-tagline {
+  color: var(--echo-grey);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.qfl-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.qfl-nav a {
+  color: var(--starlight-cream);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.qfl-nav a:hover {
+  color: var(--neon-tide);
+  text-shadow: 0 0 5px var(--quantum-mint);
+}
+
+/* The hamburger button */
+.qfl-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 28px;
+  height: 22px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.qfl-menu-toggle .bar {
+  width: 100%;
+  height: 3px;
+  background-color: var(--quantum-mint);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Hide nav on small screens */
+@media (max-width: 768px) {
+  .qfl-nav {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(
+      135deg,
+      var(--graviton-mist),
+      var(--event-horizon)
+    );
+    padding: 1rem 0;
+    border-top: 1px solid var(--cosmic-lavender);
+    box-shadow: 0 0 10px var(--cosmic-lavender);
+  }
+
+  .qfl-nav.show {
+    display: flex;
+  }
+
+  .qfl-nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .qfl-menu-toggle {
+    display: flex;
+  }
+}
+
+/* Optional animation for menu button when active */
+.qfl-menu-toggle.active .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.qfl-menu-toggle.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.qfl-menu-toggle.active .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 img {
@@ -67,4 +181,9 @@ p {
 .btn:hover {
   background: var(--qfl-highlight);
   color: var(--qfl-bg-dark);
+}
+
+.license-note {
+  font-size: 0.8rem;
+  color: var(--qfl-text-muted);
 }

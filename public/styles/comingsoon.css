@@ -1,0 +1,18 @@
+:root {
+  --neon-tide: #00E6E6;
+  --cosmic-lavender: #A64DFF;
+  --event-horizon: #0B0C20;
+  --quantum-mint: #66FCF1;
+  --graviton-mist: #1F2833;
+  --starlight-cream: #F5F1E9;
+  --echo-grey: #B8C2CC;
+  --font-body: "Inter", "Helvetica Neue", sans-serif;
+  --font-accent: "Orbitron", serif;
+}
+
+h3 {
+  font-family: var(--font-accent);
+  color: var(--cosmic-lavender);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,85 @@
+.qfl-contact {
+  padding: 4rem 1.5rem;
+  color: var(--starlight-cream);
+  background: linear-gradient(180deg, var(--event-horizon), var(--graviton-mist));
+  text-align: center;
+}
+
+.qfl-contact-intro h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: var(--quantum-mint);
+  margin-bottom: 1rem;
+}
+
+.qfl-contact-intro p {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  color: var(--starlight-cream);
+  line-height: 1.6;
+}
+
+.qfl-contact-methods {
+  display: grid;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.qfl-contact-card {
+  background-color: rgba(11, 12, 32, 0.6);
+  border: 1px solid var(--cosmic-lavender);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 15px rgba(166, 77, 255, 0.2);
+}
+
+.qfl-contact-card h3 {
+  color: var(--neon-tide);
+  margin-bottom: 0.5rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.qfl-contact-card a.qfl-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: var(--cosmic-lavender);
+  color: var(--event-horizon);
+  padding: 0.75rem 1.25rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.qfl-contact-card a.qfl-btn:hover {
+  background-color: var(--quantum-mint);
+  color: var(--event-horizon);
+}
+
+.qfl-contact-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.qfl-contact-card ul li {
+  margin: 0.5rem 0;
+}
+
+.qfl-contact-card ul a {
+  color: var(--quantum-mint);
+  text-decoration: none;
+}
+
+.qfl-contact-card ul a:hover {
+  color: var(--cosmic-lavender);
+}
+
+.qfl-contact-quote blockquote {
+  font-style: italic;
+  color: var(--echo-grey);
+  margin-bottom: 1rem;
+}
+
+.qfl-contact-quote p {
+  color: var(--starlight-cream);
+}

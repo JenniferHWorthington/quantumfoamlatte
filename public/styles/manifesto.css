@@ -1,0 +1,90 @@
+:root {
+  --neon-tide: #00E6E6;
+  --cosmic-lavender: #A64DFF;
+  --event-horizon: #0B0C20;
+  --quantum-mint: #66FCF1;
+  --graviton-mist: #1F2833;
+  --starlight-cream: #F5F1E9;
+  --echo-grey: #B8C2CC;
+}
+
+/* Main content */
+
+h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.qfl-main {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.qfl-manifesto h2 {
+  font-size: 2.25rem;
+  text-align: center;
+  color: var(--quantum-mint);
+  margin-bottom: 1.5rem;
+}
+
+.qfl-intro {
+  text-align: center;
+  font-style: italic;
+  color: var(--echo-grey);
+  margin-bottom: 2.5rem;
+}
+
+.qfl-manifesto h3 {
+  color: var(--cosmic-lavender);
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.qfl-manifesto p {
+  color: var(--starlight-cream);
+  margin-bottom: 1rem;
+}
+
+.qfl-manifesto ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem;
+}
+
+.qfl-manifesto li {
+  background: var(--graviton-mist);
+  border-left: 3px solid var(--neon-tide);
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 230, 230, 0.05);
+}
+
+blockquote {
+  font-style: italic;
+  text-align: center;
+  color: var(--echo-grey);
+  margin: 3rem 0 1rem;
+  border-left: 3px solid var(--cosmic-lavender);
+  padding-left: 1rem;
+}
+
+.qfl-signature {
+  text-align: center;
+  color: var(--quantum-mint);
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.qfl-footer {
+  text-align: center;
+  padding: 2rem;
+  background: var(--graviton-mist);
+  color: var(--echo-grey);
+  border-top: 1px solid var(--echo-grey);
+  font-size: 0.9rem;
+}
+
