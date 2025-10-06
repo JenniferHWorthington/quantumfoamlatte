@@ -84,7 +84,7 @@ blockquote {
   text-align: center;
   color: var(--echo-grey);
   margin: 3rem 0 1rem;
-  border-left: 3px solid var(--cosmic-lavender);
+  /* border-left: 3px solid var(--cosmic-lavender); */
   padding-left: 1rem;
 }
 
