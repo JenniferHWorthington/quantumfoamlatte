@@ -1,0 +1,71 @@
+/* ================================
+   Quantum Foam Latte — Recovery Page
+   ================================ */
+
+:root {
+  --neon-tide: #00E6E6;
+  --cosmic-lavender: #A64DFF;
+  --event-horizon: #0B0C20;
+  --quantum-mint: #66FCF1;
+  --graviton-mist: #1F2833;
+  --starlight-cream: #F5F1E9;
+  --echo-grey: #B8C2CC;
+  --font-body: "Inter", "Helvetica Neue", sans-serif;
+  --font-accent: "Orbitron", serif;
+}
+
+/* ====== BASE ====== */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ====== BLOG ====== */
+.qfl-blog {
+  text-align: left;
+  background: linear-gradient(
+    160deg,
+    var(--graviton-mist),
+    var(--event-horizon)
+  );
+  padding: 4rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 25px rgba(0, 230, 230, 0.05);
+}
+
+.qfl-blog h2 {
+  font-family: var(--font-accent);
+  color: var(--quantum-mint);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.qfl-entry {
+  color: var(--starlight-cream);
+  max-width: 700px;
+  margin: 0.75rem auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.qfl-link {
+  color: var(--quantum-mint);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.qfl-link:hover {
+  color: var(--cosmic-lavender);
+}
+
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 600px) {
+  main {
+    padding: 2rem 1rem;
+  }
+}
