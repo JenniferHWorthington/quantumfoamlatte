@@ -24,6 +24,20 @@ main {
   margin: 0 auto;
 }
 
+.qfl-recovery-intro h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: var(--quantum-mint);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.qfl-recovery-intro p {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  color: var(--starlight-cream);
+  line-height: 1.6;
+}
+
 /* ====== BLOG ====== */
 .qfl-blog {
   text-align: left;
