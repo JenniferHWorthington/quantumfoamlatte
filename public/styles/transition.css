@@ -54,14 +54,16 @@ main {
 
 .qfl-img-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 5rem 0; 
 }
 
 .qfl-blog-img {
-  height: 25rem;
+  height: 20rem;
   width: auto;
   border-radius: 5%;
+  margin: 1rem 0;
 }
 
 .qfl-link {
